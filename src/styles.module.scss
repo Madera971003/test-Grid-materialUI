@@ -1,0 +1,43 @@
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.boxCardHeader {
+  height: 140px;
+}
+
+.boxCardDetails {
+  height: 180px;
+}
+
+.boxCardDescrption {
+  height: 260px;
+}
+
+.bg_color {
+  &_aqua {
+    background-color: aqua;
+  }
+  &_whitesmoke {
+    background-color: whitesmoke;
+  }
+  &_blanchedalmond {
+    background-color: blanchedalmond;
+  }
+  &_peachpuff {
+    background-color: peachpuff;
+  }
+  &_lightblue {
+    background-color: lightblue;
+  }
+  &_salmon {
+    background-color: salmon;
+  }
+  &_lightgrey {
+    background-color: lightgrey;
+  }
+}
